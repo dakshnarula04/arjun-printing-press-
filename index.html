@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printing Services - ARJUN PRINTING PRESS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="preloader" id="preloader" aria-hidden="true" role="status" aria-live="polite">
+        <div class="logo-mark small">
+            <div class="logo-wrap">
+                <span class="loader-ring" aria-hidden="true"></span>
+                <img src="images/logo.png" class="logo-img preload small" alt="ARJUN PRINTING PRESS">
+            </div>
+            <div class="brand sr-only">ARJUN PRINTING PRESS</div>
+            <div class="year">SINCE 1948</div>
+        </div>
+        <div class="service-options" id="service-options">
+            <div class="service-circles-container">
+                <div class="service-circle" data-service="printing">
+                    <div class="circle-content">
+                        <i class="fas fa-print"></i>
+                        <span>Printing Services</span>
+                    </div>
+                </div>
+                <div class="service-circle" data-service="mementoes">
+                    <div class="circle-content">
+                        <i class="fas fa-gift"></i>
+                        <span>Mementoes Services</span>
+                    </div>
+                </div>
+                <div class="service-circle" data-service="corporate">
+                    <div class="circle-content">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Corporate Gifts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Section -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +91 1234567890</span>
+                    <span><i class="fas fa-envelope"></i> info@arjunprintingpress.com</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="top-controls">
+                <div class="service-switcher">
+                    <div class="service-dropdown">
+                        <button class="service-toggle">
+                            <i class="fas fa-print"></i>
+                            <span>Printing Services</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="service-menu">
+                            <a href="index.html" class="service-option active">
+                                <i class="fas fa-print"></i>
+                                <span>Printing Services</span>
+                            </a>
+                            <a href="mementoes.html" class="service-option">
+                                <i class="fas fa-gift"></i>
+                                <span>Mementoes Services</span>
+                            </a>
+                            <a href="corporate.html" class="service-option">
+                                <i class="fas fa-briefcase"></i>
+                                <span>Corporate Gifts</span>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <button class="wishlist-toggle" id="wishlistToggle">
+                        <i class="fas fa-heart"></i>
+                        <span class="wishlist-count">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h1>ARJUN PRINTING PRESS</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Wishlist Modal -->
+    <div class="wishlist-modal" id="wishlistModal">
+        <div class="wishlist-content">
+            <div class="wishlist-header">
+                <h2><i class="fas fa-heart"></i> My Wishlist</h2>
+                <button class="close-wishlist" id="closeWishlist">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="wishlist-items" id="wishlistItems">
+                <div class="empty-wishlist">
+                    <i class="fas fa-heart-broken"></i>
+                    <h3>Your wishlist is empty</h3>
+                    <p>Start adding products to your wishlist to see them here!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- E-commerce Hero Section with Auto Slider -->
+    <section class="ecommerce-hero" id="home">
+        <div class="hero-slider">
+            <input type="radio" name="hero-slide" id="hero-1" checked>
+            <input type="radio" name="hero-slide" id="hero-2">
+            <input type="radio" name="hero-slide" id="hero-3">
+            
+            <div class="slider-track">
+                <div class="slide slide-1">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <div class="deal-badge">💼 PROFESSIONAL</div>
+                            <h1>Premium Visiting Cards</h1>
+                            <h2>Make Your First Impression Count</h2>
+                            <p>Professional business cards with premium finishes, custom designs, and high-quality materials. Perfect for networking and business growth.</p>
+                            <div class="hero-features">
+                                <span><i class="fas fa-check"></i> Premium Quality</span>
+                                <span><i class="fas fa-check"></i> Custom Design</span>
+                                <span><i class="fas fa-check"></i> Fast Delivery</span>
+                            </div>
+                            <div class="hero-buttons">
+                                <a href="#categories" class="btn btn-primary">Explore Now</a>
+                                <a href="#contact" class="btn btn-secondary">Get Quote</a>
+                            </div>
+                        </div>
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop" alt="Visiting Cards">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide slide-2">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <div class="deal-badge">💕 ELEGANT</div>
+                            <h1>Wedding Cards</h1>
+                            <h2>Celebrate Your Special Day</h2>
+                            <p>Beautiful wedding invitations and e-wedding cards with elegant designs, custom themes, and premium quality. Make your special day unforgettable.</p>
+                            <div class="hero-features">
+                                <span><i class="fas fa-check"></i> Elegant Design</span>
+                                <span><i class="fas fa-check"></i> Digital & Print</span>
+                                <span><i class="fas fa-check"></i> Custom Themes</span>
+                            </div>
+                            <div class="hero-buttons">
+                                <a href="#categories" class="btn btn-primary">Explore Now</a>
+                                <a href="#contact" class="btn btn-secondary">Get Quote</a>
+                            </div>
+                        </div>
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=600&h=400&fit=crop" alt="Wedding Cards">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide slide-3">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <div class="deal-badge">🎯 CUSTOM</div>
+                            <h1>Customized Wrist Bands</h1>
+                            <h2>Perfect for Events & Promotions</h2>
+                            <p>Personalized wrist bands for events, identification, and promotional purposes. Durable materials with custom text and designs.</p>
+                            <div class="hero-features">
+                                <span><i class="fas fa-check"></i> Durable Material</span>
+                                <span><i class="fas fa-check"></i> Custom Text</span>
+                                <span><i class="fas fa-check"></i> Event Ready</span>
+                            </div>
+            <div class="hero-buttons">
+                                <a href="#categories" class="btn btn-primary">Explore Now</a>
+                <a href="#contact" class="btn btn-secondary">Get Quote</a>
+            </div>
+        </div>
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop" alt="Customized Wrist Bands">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-nav">
+                <label for="hero-1" class="nav-dot"></label>
+                <label for="hero-2" class="nav-dot"></label>
+                <label for="hero-3" class="nav-dot"></label>
+            </div>
+            
+            <div class="slider-arrows">
+                <label for="hero-1" class="arrow arrow-prev">‹</label>
+                <label for="hero-2" class="arrow arrow-next">›</label>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section" id="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>📂 Explore All Categories</h2>
+                <p>Discover our comprehensive range of printing and customization services</p>
+            </div>
+            
+            <div class="categories-carousel">
+                <button class="carousel-arrow carousel-prev" onclick="scrollCategories(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="categories-container">
+                    <div class="categories-track">
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=200&h=200&fit=crop" alt="Visiting Cards">
+                            </div>
+                            <h3>Visiting Cards</h3>
+                        </div>
+                        
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop" alt="Letter Heads">
+                            </div>
+                            <h3>Letter Heads</h3>
+                        </div>
+                        
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=200&h=200&fit=crop" alt="Bill Books">
+                            </div>
+                            <h3>Bill Books</h3>
+                        </div>
+                        
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=200&h=200&fit=crop" alt="Wedding Cards">
+                            </div>
+                            <h3>Wedding Cards</h3>
+                        </div>
+                        
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=200&h=200&fit=crop" alt="Customized Stamps">
+                            </div>
+                            <h3>Customized Stamps</h3>
+                        </div>
+                        
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&h=200&fit=crop" alt="Flyers">
+                            </div>
+                            <h3>Flyers</h3>
+                        </div>
+                        
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=200&h=200&fit=crop" alt="T-Shirts & Hoodies">
+                            </div>
+                            <h3>T-Shirts & Hoodies</h3>
+                        </div>
+                        
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=200&h=200&fit=crop" alt="Customized Calendars">
+                            </div>
+                            <h3>Customized Calendars</h3>
+                        </div>
+                        
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop" alt="Labels & Stickers">
+                            </div>
+                            <h3>Labels & Stickers</h3>
+                        </div>
+                        
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=200&h=200&fit=crop" alt="Customized Stationery">
+                            </div>
+                            <h3>Customized Stationery</h3>
+                        </div>
+                        
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&h=200&fit=crop" alt="Advertisement Boards">
+                            </div>
+                            <h3>Advertisement Boards</h3>
+                        </div>
+                        
+                        <div class="category-item">
+                            <div class="category-image">
+                                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=200&h=200&fit=crop" alt="Customized Wrist Bands">
+                            </div>
+                            <h3>Customized Wrist Bands</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-arrow carousel-next" onclick="scrollCategories(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Printing Services</h2>
+            <p class="section-subtitle">Comprehensive printing solutions for every business requirement</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Offset Printing</h3>
+                    <p>High-volume printing with superior quality and cost-effectiveness for large quantities.</p>
+                    <div class="service-tags">
+                        <span class="tag">Large Volume</span>
+                        <span class="tag">Cost Effective</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Digital Printing</h3>
+                    <p>Fast, flexible printing for small to medium quantities with quick turnaround times.</p>
+                    <div class="service-tags">
+                        <span class="tag">Quick Turnaround</span>
+                        <span class="tag">Flexible</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Book Printing</h3>
+                    <p>Professional book printing services including binding, cover design, and finishing.</p>
+                    <div class="service-tags">
+                        <span class="tag">Professional</span>
+                        <span class="tag">Complete Solution</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <h3>Business Cards</h3>
+                    <p>Premium business cards with various finishes and custom designs for professional networking.</p>
+                    <div class="service-tags">
+                        <span class="tag">Premium Quality</span>
+                        <span class="tag">Custom Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>⭐ Featured Products</h2>
+                <p>Discover our most popular printing solutions</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=300&h=200&fit=crop" alt="Business Cards">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                </div>
+                        <div class="product-badge">Popular</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Business Cards</h3>
+                        <p>Professional business cards with premium finishes and custom design</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=200&fit=crop" alt="Brochures">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                </div>
+                        <div class="product-badge new">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Marketing Brochures</h3>
+                        <p>Eye-catching brochures designed to promote your business effectively</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=300&h=200&fit=crop" alt="Flyers">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                </div>
+                        <div class="product-badge hot">Hot</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Promotional Flyers</h3>
+                        <p>High-quality flyers perfect for events and promotional campaigns</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=200&fit=crop" alt="Books">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                </div>
+                        <div class="product-badge">Premium</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Book Printing</h3>
+                        <p>Professional book printing with custom binding and premium materials</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About ARJUN PRINTING PRESS</h2>
+                    <p>With over 75 years of experience in the printing industry, we have been serving businesses and individuals with high-quality printing solutions. Our commitment to excellence and customer satisfaction has made us a trusted name in the industry.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>75+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10,000+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50,000+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/hero-bg.jpg" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <h2>Why Choose Our Printing Services?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-award"></i>
+                    <h3>75+ Years Experience</h3>
+                    <p>Decades of expertise in the printing industry with proven track record</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Fast Turnaround</h3>
+                    <p>Quick delivery without compromising on quality and attention to detail</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Custom Design</h3>
+                    <p>Professional design services to match your brand and business requirements</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Quality Guarantee</h3>
+                    <p>100% satisfaction guarantee on all our printing services and products</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="quote-section" id="contact">
+        <div class="container">
+            <div class="quote-header">
+                <h2>🚀 Get Your Free Quote</h2>
+                <p class="section-subtitle">Transform your ideas into reality with our professional printing services</p>
+            </div>
+            
+            <div class="quote-content">
+                <div class="quote-info">
+                    <div class="quote-benefits">
+                        <h3>Why Choose Our Quote Service?</h3>
+                        <div class="benefit-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Instant Response</h4>
+                                <p>Get your quote within 2 hours</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <div>
+                                <h4>Best Prices</h4>
+                                <p>Competitive rates guaranteed</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Quality Assured</h4>
+                                <p>Premium materials & craftsmanship</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <h3>Quick Contact</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Now</h4>
+                                <p>+91 1234567890</p>
+                                <span>Mon-Sat: 9AM-7PM</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>info@arjunprintingpress.com</p>
+                                <span>24/7 Support</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>123 Printing Street, City, State 12345</p>
+                                <span>Free Consultation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quote-form-container">
+                    <form class="quote-form" id="quoteForm">
+                        <div class="form-header">
+                            <h3>📝 Request Your Quote</h3>
+                            <p>Fill out the form below and we'll get back to you with a detailed quote</p>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Full Name" required>
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email Address" required>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="tel" placeholder="Phone Number" required>
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="form-group">
+                                <select required>
+                                    <option value="">Select Service Type</option>
+                                    <option value="visiting-cards">Visiting Cards</option>
+                                    <option value="wedding-cards">Wedding Cards</option>
+                                    <option value="brochures">Brochures & Flyers</option>
+                                    <option value="business-cards">Business Cards</option>
+                                    <option value="book-printing">Book Printing</option>
+                                    <option value="custom-printing">Custom Printing</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <i class="fas fa-list"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" placeholder="Quantity (e.g., 1000 pieces)" required>
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea placeholder="Project Details & Special Requirements" rows="4" required></textarea>
+                            <i class="fas fa-edit"></i>
+                        </div>
+                        
+                        <button type="submit" class="quote-submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Get Free Quote</span>
+                            <div class="btn-loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                            </div>
+                        </button>
+                        
+                        <div class="form-footer">
+                            <p><i class="fas fa-lock"></i> Your information is secure and will never be shared</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="images/logo.png" class="logo-img footer" alt="ARJUN PRINTING PRESS" />
+                    <p>Your trusted partner for all printing needs since 1948.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Offset Printing</li>
+                        <li>Digital Printing</li>
+                        <li>Book Printing</li>
+                        <li>Business Cards</li>
+                        <li>Brochures</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +91 1234567890</li>
+                        <li><i class="fas fa-envelope"></i> info@arjunprintingpress.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Printing Street, City</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ARJUN PRINTING PRESS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Preloader: solid bg + logo; then logo fades, "SINCE 1948" shows and blurs out
+        var pre = document.getElementById('preloader');
+        if (pre){
+            var showPreloader = true;
+
+            // Handle page show event (includes back/forward navigation)
+            window.addEventListener('pageshow', function(event) {
+                // If page was loaded from cache (back/forward navigation), don't show preloader
+                if (event.persisted) {
+                    showPreloader = false;
+                    pre.style.display = 'none';
+                }
+            });
+
+            // Handle page load event
+            window.addEventListener('load', function() {
+                if (showPreloader) {
+                    // Check if this is a fresh load or refresh
+                    var isFreshLoad = true;
+
+                    // Check navigation type
+                    if (window.performance && window.performance.navigation) {
+                        // Type 2 = back/forward navigation
+                        if (window.performance.navigation.type === 2) {
+                            isFreshLoad = false;
+                        }
+                    }
+
+                    // Check if page was loaded from cache
+                    if (window.performance && window.performance.getEntriesByType) {
+                        var navigationEntries = window.performance.getEntriesByType('navigation');
+                        if (navigationEntries.length > 0) {
+                            var navEntry = navigationEntries[0];
+                            // If transferSize is 0, it was loaded from cache
+                            if (navEntry.transferSize === 0) {
+                                isFreshLoad = false;
+                            }
+                        }
+                    }
+
+                    // Check sessionStorage for previous visit
+                    var hasVisited = sessionStorage.getItem('hasVisited');
+                    if (hasVisited && isFreshLoad) {
+                        isFreshLoad = false;
+                    } else if (isFreshLoad) {
+                        sessionStorage.setItem('hasVisited', 'true');
+                    }
+
+                    if (isFreshLoad) {
+                        // Show preloader animation
+                        setTimeout(function(){ pre.classList.add('show-year'); }, 1800);
+                        setTimeout(function(){ 
+                            pre.classList.add('show-options');
+                        }, 2500);
+                        // Don't auto-hide - wait for user selection
+                    } else {
+                        // Hide preloader immediately
+                        pre.style.display = 'none';
+                    }
+                }
+            });
+            
+            // Reset preloader state when leaving page
+            window.addEventListener('beforeunload', function(){ 
+                pre.classList.remove('hidden'); 
+                pre.classList.remove('show-year');
+                pre.style.display = 'grid';
+                showPreloader = true;
+            });
+        }
+
+        // Service options click handlers
+        document.addEventListener('DOMContentLoaded', function() {
+            const serviceCircles = document.querySelectorAll('.service-circle');
+            const preloader = document.getElementById('preloader');
+            let serviceSelected = false;
+            
+            serviceCircles.forEach(circle => {
+                circle.addEventListener('click', function() {
+                    if (serviceSelected) return; // Prevent multiple selections
+                    
+                    serviceSelected = true;
+                    const service = this.getAttribute('data-service');
+                    
+                    // Add selection animation
+                    this.style.transform = 'scale(1.2)';
+                    this.style.background = 'linear-gradient(135deg, rgba(0, 152, 218, 1) 0%, rgba(0, 152, 218, 0.8) 100%)';
+                    
+                    // Hide preloader after selection
+                    setTimeout(function() {
+                        if (preloader) {
+                            preloader.classList.add('hidden');
+                        }
+                    }, 500);
+                    
+                    // Navigate to selected service
+                    setTimeout(function() {
+                        switch(service) {
+                            case 'printing':
+                                // Stay on current page (index.html)
+                                break;
+                            case 'mementoes':
+                                window.location.href = 'mementoes.html';
+                                break;
+                            case 'corporate':
+                                window.location.href = 'corporate.html';
+                                break;
+                        }
+                    }, 800);
+                });
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Service switcher functionality
+        const serviceDropdown = document.querySelector('.service-dropdown');
+        const serviceToggle = document.querySelector('.service-toggle');
+        
+        if (serviceToggle) {
+            serviceToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                serviceDropdown.classList.toggle('active');
+            });
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!serviceDropdown.contains(e.target)) {
+                serviceDropdown.classList.remove('active');
+            }
+        });
+
+        // Auto-slider functionality for hero section
+        let currentSlide = 1;
+        const totalSlides = 3;
+        let slideInterval;
+
+        function startAutoSlide() {
+            slideInterval = setInterval(() => {
+                currentSlide = currentSlide >= totalSlides ? 1 : currentSlide + 1;
+                const radioButton = document.getElementById(`hero-${currentSlide}`);
+                if (radioButton) {
+                    radioButton.checked = true;
+                }
+            }, 5000); // Change slide every 5 seconds
+        }
+
+        function stopAutoSlide() {
+            if (slideInterval) {
+                clearInterval(slideInterval);
+                slideInterval = null;
+            }
+        }
+
+        // Start auto-slide when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Wait a bit for the page to fully load
+            setTimeout(() => {
+                startAutoSlide();
+            }, 1000);
+            
+            // Stop auto-slide when user interacts with slider
+            const sliderInputs = document.querySelectorAll('input[name="hero-slide"]');
+            sliderInputs.forEach(input => {
+                input.addEventListener('change', function() {
+                    currentSlide = parseInt(this.id.split('-')[1]);
+                    stopAutoSlide();
+                    // Restart auto-slide after 8 seconds of inactivity
+                    setTimeout(() => {
+                        startAutoSlide();
+                    }, 8000);
+                });
+            });
+
+            // Handle manual navigation arrows
+            const prevArrow = document.querySelector('.arrow-prev');
+            const nextArrow = document.querySelector('.arrow-next');
+            
+            if (prevArrow) {
+                prevArrow.addEventListener('click', function() {
+                    currentSlide = currentSlide <= 1 ? totalSlides : currentSlide - 1;
+                    const radioButton = document.getElementById(`hero-${currentSlide}`);
+                    if (radioButton) {
+                        radioButton.checked = true;
+                    }
+                    stopAutoSlide();
+                    setTimeout(() => {
+                        startAutoSlide();
+                    }, 8000);
+                });
+            }
+            
+            if (nextArrow) {
+                nextArrow.addEventListener('click', function() {
+                    currentSlide = currentSlide >= totalSlides ? 1 : currentSlide + 1;
+                    const radioButton = document.getElementById(`hero-${currentSlide}`);
+                    if (radioButton) {
+                        radioButton.checked = true;
+                    }
+                    stopAutoSlide();
+                    setTimeout(() => {
+                        startAutoSlide();
+                    }, 8000);
+                });
+            }
+        });
+
+
+        // View details functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const viewDetailsButtons = document.querySelectorAll('.view-details, .view-details-btn');
+            viewDetailsButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const productName = this.closest('.deal-card, .product-card').querySelector('h3').textContent;
+                    
+                    // Add visual feedback
+                    this.innerHTML = '<i class="fas fa-eye"></i> Viewing...';
+                    this.style.backgroundColor = '#28a745';
+                    
+                    // Show notification
+                    showNotification(`Viewing details for ${productName}`);
+                    
+                    // Reset button after 2 seconds
+                    setTimeout(() => {
+                        this.innerHTML = 'View Details';
+                        this.style.backgroundColor = '';
+                    }, 2000);
+                });
+            });
+        });
+
+        // Quick view functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const quickViewButtons = document.querySelectorAll('.quick-view, .quick-view-btn');
+            quickViewButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const productName = this.closest('.deal-card, .product-card').querySelector('h3').textContent;
+                    showNotification(`Quick view for ${productName} - Feature coming soon!`);
+                });
+            });
+        });
+
+        // Wishlist functionality
+        let wishlist = [];
+        
+        function updateWishlistCount() {
+            const countElement = document.querySelector('.wishlist-count');
+            if (countElement) {
+                countElement.textContent = wishlist.length;
+                countElement.style.display = wishlist.length > 0 ? 'block' : 'none';
+            }
+        }
+        
+        function addToWishlist(productName, productImage, productDescription) {
+            const existingItem = wishlist.find(item => item.name === productName);
+            if (!existingItem) {
+                wishlist.push({
+                    name: productName,
+                    image: productImage,
+                    description: productDescription
+                });
+                updateWishlistCount();
+                updateWishlistDisplay();
+                showNotification(`${productName} added to wishlist!`);
+            }
+        }
+        
+        function removeFromWishlist(productName) {
+            wishlist = wishlist.filter(item => item.name !== productName);
+            updateWishlistCount();
+            updateWishlistDisplay();
+            showNotification(`${productName} removed from wishlist!`);
+        }
+        
+        function updateWishlistDisplay() {
+            const wishlistItems = document.getElementById('wishlistItems');
+            if (wishlist.length === 0) {
+                wishlistItems.innerHTML = `
+                    <div class="empty-wishlist">
+                        <i class="fas fa-heart-broken"></i>
+                        <h3>Your wishlist is empty</h3>
+                        <p>Start adding products to your wishlist to see them here!</p>
+                    </div>
+                `;
+            } else {
+                wishlistItems.innerHTML = wishlist.map(item => `
+                    <div class="wishlist-item">
+                        <div class="wishlist-item-image">
+                            <img src="${item.image}" alt="${item.name}">
+                        </div>
+                        <div class="wishlist-item-info">
+                            <h4>${item.name}</h4>
+                            <p>${item.description}</p>
+                        </div>
+                        <button class="remove-wishlist" onclick="removeFromWishlist('${item.name}')">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                `).join('');
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const wishlistButtons = document.querySelectorAll('.wishlist-btn');
+            wishlistButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const icon = this.querySelector('i');
+                    const productCard = this.closest('.product-card');
+                    const productName = productCard.querySelector('h3').textContent;
+                    const productImage = productCard.querySelector('img').src;
+                    const productDescription = productCard.querySelector('p').textContent;
+                    
+                    if (icon.classList.contains('far')) {
+                        icon.classList.remove('far');
+                        icon.classList.add('fas');
+                        this.style.color = '#e74c3c';
+                        addToWishlist(productName, productImage, productDescription);
+                    } else {
+                        icon.classList.remove('fas');
+                        icon.classList.add('far');
+                        this.style.color = '';
+                        removeFromWishlist(productName);
+                    }
+                });
+            });
+            
+            // Wishlist modal functionality
+            const wishlistToggle = document.getElementById('wishlistToggle');
+            const wishlistModal = document.getElementById('wishlistModal');
+            const closeWishlist = document.getElementById('closeWishlist');
+            
+            if (wishlistToggle) {
+                wishlistToggle.addEventListener('click', function() {
+                    wishlistModal.style.display = 'flex';
+                    document.body.style.overflow = 'hidden';
+                });
+            }
+            
+            if (closeWishlist) {
+                closeWishlist.addEventListener('click', function() {
+                    wishlistModal.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                });
+            }
+            
+            // Close modal when clicking outside
+            wishlistModal.addEventListener('click', function(e) {
+                if (e.target === wishlistModal) {
+                    wishlistModal.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }
+            });
+            
+            updateWishlistCount();
+        });
+
+        // Quote form functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const quoteForm = document.getElementById('quoteForm');
+            const submitBtn = document.querySelector('.quote-submit-btn');
+            
+            if (quoteForm) {
+                quoteForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Show loading state
+                    submitBtn.classList.add('loading');
+                    submitBtn.disabled = true;
+                    
+                    // Simulate form submission
+                    setTimeout(() => {
+                        // Reset form
+                        quoteForm.reset();
+                        
+                        // Show success message
+                        showNotification('Quote request submitted successfully! We\'ll get back to you within 2 hours.', 'success');
+                        
+                        // Reset button
+                        submitBtn.classList.remove('loading');
+                        submitBtn.disabled = false;
+                    }, 2000);
+                });
+            }
+        });
+
+        // Categories carousel functionality
+        let currentCategoryIndex = 0;
+        const categoriesPerView = 6; // Number of categories visible at once
+        
+        function scrollCategories(direction) {
+            const track = document.querySelector('.categories-track');
+            const categoryItems = document.querySelectorAll('.category-item');
+            const totalCategories = categoryItems.length;
+            
+            currentCategoryIndex += direction;
+            
+            // Ensure we don't go beyond bounds
+            if (currentCategoryIndex < 0) {
+                currentCategoryIndex = 0;
+            } else if (currentCategoryIndex > totalCategories - categoriesPerView) {
+                currentCategoryIndex = totalCategories - categoriesPerView;
+            }
+            
+            // Calculate scroll position
+            const scrollAmount = currentCategoryIndex * (200 + 20); // item width + gap
+            track.style.transform = `translateX(-${scrollAmount}px)`;
+            
+            // Update arrow visibility
+            updateCarouselArrows();
+        }
+        
+        function updateCarouselArrows() {
+            const prevArrow = document.querySelector('.carousel-prev');
+            const nextArrow = document.querySelector('.carousel-next');
+            const categoryItems = document.querySelectorAll('.category-item');
+            const totalCategories = categoryItems.length;
+            
+            prevArrow.style.opacity = currentCategoryIndex === 0 ? '0.5' : '1';
+            nextArrow.style.opacity = currentCategoryIndex >= totalCategories - categoriesPerView ? '0.5' : '1';
+        }
+        
+        // Initialize carousel
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCarouselArrows();
+        });
+
+        // Simple notification system
+        function showNotification(message) {
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.className = 'notification';
+            notification.textContent = message;
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #28a745;
+                color: white;
+                padding: 15px 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                z-index: 10000;
+                font-weight: 500;
+                transform: translateX(100%);
+                transition: transform 0.3s ease;
+            `;
+            
+            document.body.appendChild(notification);
+            
+            // Animate in
+            setTimeout(() => {
+                notification.style.transform = 'translateX(0)';
+            }, 100);
+            
+            // Remove after 3 seconds
+            setTimeout(() => {
+                notification.style.transform = 'translateX(100%)';
+                setTimeout(() => {
+                    document.body.removeChild(notification);
+                }, 300);
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
